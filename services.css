@@ -1,0 +1,25 @@
+body{
+    background-color: #b8b8b8;
+    color: black;
+}
+.header ul{
+    list-style-type: none;
+     text-align: right;
+     background-color: #2a262b65;
+     overflow: hidden;
+}
+.header li{
+    float: inline-start;
+}
+.header a{
+    color: wheat;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+}
+.header a:hover{
+    color: #2a262b65;
+}
+h1{
+    text-align: center;
+}

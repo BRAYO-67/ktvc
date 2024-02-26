@@ -1,0 +1,85 @@
+body{
+    background-color: #9b75a565;
+   /*
+    background-image: no-repeat;*/
+    /*background-color: #b8b8b8;*/
+    padding: 2px;
+}
+.navbar ul{
+   list-style-type: none;
+    text-align: right;
+    background-color: #2a262b65;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    height: 32px;
+    align-items: center;
+}
+h1{
+    margin: 2px;
+    text-align: center;
+    color: hsl(240, 62%, 15%);
+}
+.navbar a{
+    color: wheat;
+   
+    text-decoration: none;
+    padding: 15px;   
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navbar li{
+    float: inline-start;
+   
+}
+.div1, .div2, .div3{
+    background-color: black;
+    color: white;
+    height: 360px;
+    width: 50%;
+    margin: 20px;   
+    padding: 15px;
+    border-radius: 10px;
+
+} 
+.div3{
+    overflow: auto;
+}
+.motherdiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    text-align: center;
+    flex-direction: row;
+    background-color: #b0d3d3;
+    height: 50%;
+    border-radius: 5px;
+}
+.core_values li{
+    list-style-type: none;
+}
+.h11{
+    color: aqua;
+}
+.footer{
+    display: flex;
+    background-color: rgb(53, 49, 49);
+    color: white;
+    height: 100px;
+}
+.footernav{
+    display: flex;
+    justify-content: flex-end;
+}
+.footernav a{
+    color:rgb(117, 194, 194);
+    padding: 10px;
+
+    
+}
+.footernav a:visited{
+    color:rgb(136, 170, 116)
+
+    
+}
